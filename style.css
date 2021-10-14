@@ -1,0 +1,128 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+a{
+    color: #28497a;
+    text-decoration: none;
+    transition: .3s;
+    margin: .5em;
+}
+
+a:hover{
+    color: #3260a3;
+}
+.layout{
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    background-color: rgb(140, 34, 238);
+}
+header .layout{
+    display: flex;
+    justify-content: space-between;
+}
+.logo-block > .logo{
+    width: 100px;
+    height: 100px;
+    background-image: url(./shutterstock_583717939.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+header .header-menus{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color:rgb(255, 255, 255);
+}
+.wrapper{
+    background-image: url(./1211.png_860.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #e5e5e5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 600px;
+}
+.wrapper .layout{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+.wrapper h1{
+    font-size: 50px;
+    color: #28497a;
+    margin: 1em 0;
+}
+.wrapper p{
+    width: 50%;
+    font-size: 30px;
+}
+.galery
+{
+    display: cover;
+
+}
+.galery .layout
+{
+    display:contents;
+
+}
+footer{
+    display: flex;
+    padding-bottom: 20px;
+    padding-top: 29px;
+    justify-content: space-between;
+    align-items: center;
+    height: 10%;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    width: 100%;
+    background-color: rgb(61, 60, 61);
+    color:rgb(255, 255, 255);
+    text-align: right;
+}
+footer .layout{
+    display: flex;
+    justify-content: space-between;
+}
+footer .footer-menus{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .footer-menus>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 20px;
+}
+footer .logo-block> .logo{
+    width: 250px;
+    height: 250px;
+}
+footer .a
+{
+    color:rgb(252, 252, 252);
+}
